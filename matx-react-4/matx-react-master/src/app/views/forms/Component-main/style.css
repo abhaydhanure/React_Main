@@ -1,0 +1,64 @@
+.css-1mg2z3h-MuiFormControl-root-MuiTextField-root {
+  margin-top: 0px !important;
+}
+
+.css-72h3by-MuiFormControl-root-MuiTextField-root {
+  margin-top: 0px !important;
+}
+.App {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content-paper {
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px dashed #ccc;
+  background-color: #f9f9f9;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  margin: 10px;
+}
+
+.css-m5vj9m-MuiStepper-root {
+  width: 100% !important;
+  max-width: 1234px !important;
+  margin: 0 auto !important;
+}
+
+.css-1oqqzyl-MuiContainer-root {
+  margin-top: 15px !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #0d6832 !important;
+}
+
+.css-z7uhs0-MuiStepConnector-line {
+  border-color: indigo !important;
+  border-top-width: 2px !important;
+}
+.css-1hv8oq8-MuiStepLabel-label.Mui-active {
+  font-weight: bold !important;
+  color: dimgray !important;
+}
+
+.css-tmj8mg-MuiButtonBase-root-MuiButton-root {
+  margin-left: calc(50% - -44px);
+}
+.css-p4dk61-MuiInputBase-root-MuiOutlinedInput-root{
+  padding: 0px;
+}
+/* @media (min-width: 1200px) {
+  .css-1oqqzyl-MuiContainer-root {
+    max-width: 1524px;
+  }
+} */

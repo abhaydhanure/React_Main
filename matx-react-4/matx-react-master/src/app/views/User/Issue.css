@@ -1,0 +1,18 @@
+/* .MTableHeader-header-55 {
+  background-color: cadetblue !important;
+}
+
+.MTableHeader-header-33 {
+  background-color: cadetblue !important;
+} */
+
+.first-header-cell {
+  border-top-left-radius: 12px !important;
+}
+
+.last-header-cell {
+  border-top-right-radius: 12px !important;
+}
+.css-1pz7awu-MuiButtonBase-root-MuiIconButton-root {
+  color: rebeccapurple;
+}

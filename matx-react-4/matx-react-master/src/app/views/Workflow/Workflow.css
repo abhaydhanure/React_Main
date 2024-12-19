@@ -1,0 +1,33 @@
+/* styles.css */
+.tableCell {
+  padding: 8px 16px;
+}
+
+.css-1bj0pzz-MuiTableCell-root {
+  padding: 12px 10px !important;
+}
+
+.css-1o83ncy-MuiTableCell-root {
+  color: papayawhip;
+}
+
+/* .css-1my7gy-MuiButtonBase-root-MuiButton-root {
+  padding: 1px 16px !important;
+} */
+
+.css-f4enez-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 13.5px 13px !important;
+  height: 0.4375em !important;
+}
+
+/* .css-1nq232f-MuiPaper-root-MuiTableContainer-root {
+  border: 2px solid;
+} */
+
+.firstCell {
+  border-top-left-radius: 12px; /* Apply top-left radius */
+}
+
+.lastcell {
+  border-top-right-radius: 12px; /* Apply top-left radius */
+}

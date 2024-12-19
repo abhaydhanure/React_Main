@@ -1,0 +1,96 @@
+[pointer-events="bounding-box"] {
+  display: none;
+}
+
+.p-datepicker-header {
+  display: none !important;
+}
+
+/* Calendar Container */
+.custom-calendar .p-datepicker {
+  border: none;
+  box-shadow: none;
+  font-family: "Arial", sans-serif;
+}
+
+/* Custom Header */
+.custom-calendar-header {
+  background-color: #2fae9a; /* Orange header */
+  color: white; /* White text */
+  padding: 0px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 6px 6px 0 0; /* Rounded corners at the top */
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header Rows */
+.header-row {
+  margin: 4px 0;
+}
+
+/* Navigation Buttons */
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.nav-button:hover {
+  color: #2fae9a; /* Light orange hover effect */
+}
+
+/* Weekday Header */
+.custom-calendar .p-datepicker-calendar thead th {
+  color: #757575; /* Light gray color for weekday headers */
+  font-weight: normal;
+}
+
+/* Calendar Days Styling */
+.custom-calendar .p-datepicker-calendar td {
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* Day Cells */
+.custom-calendar .p-datepicker-calendar td span {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%; /* Round shape */
+  transition: background-color 0.3s;
+}
+
+/* Hover Effect */
+.custom-calendar .p-datepicker-calendar td span:hover {
+  background-color: #2fae9a; /* Light orange hover effect */
+}
+
+/* Selected Date */
+.custom-calendar .p-highlight span {
+  background-color: #2fae9a; /* Orange background for selected date */
+  color: white; /* White text for selected date */
+}
+
+/* Today's Date */
+.custom-calendar .p-datepicker-today span {
+  border: 2px solid #2fae9a; /* Orange border for today's date */
+  color: #2fae9a; /* Orange text for today's date */
+  font-weight: bold;
+}
+
+/* Calendar Container Padding */
+.custom-calendar .p-datepicker-calendar-container {
+  padding: 17px 12px 12px 12px;
+  background-color: white; /* White background */
+  border-radius: 0 0 6px 6px; /* Rounded corners at the bottom */
+}
